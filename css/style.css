@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #16a085;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background-color: white;
+  width: 40rem;
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 5rem auto;
+  padding: 3rem 3rem 0;
+  position: relative;
+  height: 70vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.user-section {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  color: #bebcbe;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.product-name {
+  color: #938d8b;
+}
+
+.total {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.price {
+  font-weight: bold;
+}
+ .bi {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  background-image: url(../media/bicycle.png);
+  width: 100% ;
+  height: 60%;
+  background-size: cover;
+}
+
+  
